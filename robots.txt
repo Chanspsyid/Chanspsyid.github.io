@@ -1,3 +1,4 @@
+
 User-agent: *
 Allow: /
 Allow: /archives/
@@ -9,5 +10,5 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-sitemap: http://www.wenider.com/sitemap.xml
-sitemap: http://www.wenider.com/baidusitemap.xml
+Sitemap: http://www.wenider.com/sitemap.xml
+Sitemap: http://www.wenider.com/baidusitemap.xml
