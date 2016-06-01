@@ -1,4 +1,3 @@
-# hexo robots.txt
 User-agent: *
 Allow: /
 Allow: /archives/
@@ -10,5 +9,5 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: http://www.wenider/sitemap.xml
-Sitemap: http://www.wenider/baidusitemap.xml
+sitemap: http://www.wenider.com/sitemap.xml
+sitemap: http://www.wenider.com/baidusitemap.xml
