@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.wenider.com/"/>
-  <updated>2016-05-31T14:14:14.000Z</updated>
+  <updated>2016-06-01T14:35:33.000Z</updated>
   <id>http://www.wenider.com/</id>
   
   <author>
@@ -14,6 +14,93 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Update</title>
+    <link href="http://www.wenider.com/2016/06/01/Blog-Update/"/>
+    <id>http://www.wenider.com/2016/06/01/Blog-Update/</id>
+    <published>2016-06-01T14:26:56.000Z</published>
+    <updated>2016-06-01T14:35:33.000Z</updated>
+    
+    <content type="html">&lt;p&gt;博客很久没有使用，今天集中维护下，同时添加了一些小的优化。同时，本文将作为维护日志保持更新。&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;&lt;em&gt;2016.06.01&lt;/em&gt;&lt;/u&gt;：还有两个坑没填。&lt;/p&gt;
+ &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h4 id=&quot;博客架构更新：&quot;&gt;&lt;a href=&quot;#博客架构更新：&quot; class=&quot;headerlink&quot; title=&quot;博客架构更新：&quot;&gt;&lt;/a&gt;博客架构更新：&lt;/h4&gt;&lt;p&gt;更新 hexo：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;npm update -g hexo&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;可能会要求 root 权限，之后输入密码即可：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo -s&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;更新主题：cd 到主题文件夹，执行命令&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git pull&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;更新插件：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;npm update&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&quot;修复标签页面&quot;&gt;&lt;a href=&quot;#修复标签页面&quot; class=&quot;headerlink&quot; title=&quot;修复标签页面&quot;&gt;&lt;/a&gt;修复标签页面&lt;/h4&gt;&lt;p&gt;由于标签页面中 Markdown 语法错误，导致无法显示，解决了两个问题：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;type: &amp;quot;tags&amp;quot; #类型名的冒号后空一格&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt; &lt;code&gt;--- #页面定义结束后的分割线格式&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&quot;移动端的响应问题&quot;&gt;&lt;a href=&quot;#移动端的响应问题&quot; class=&quot;headerlink&quot; title=&quot;移动端的响应问题&quot;&gt;&lt;/a&gt;移动端的响应问题&lt;/h4&gt;&lt;p&gt;昨天发布完文章，在手机上打开后，发现页面主题适应了屏幕，但页面里的内容没有：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://7xir8n.com1.z0.glb.clouddn.com/IMG_3874.PNG&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;截图示例&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;猜想可能是架构版本 bug，因为刚建完博客并没有这个问题。但今天更新完博客架构和主题后，问题依然存在。&lt;/p&gt;
+&lt;p&gt;检查 config 文件，没有发现特别的地方。&lt;/p&gt;
+&lt;p&gt;修改主题 Mist 为 Pisces后，问题解决。&lt;/p&gt;
+&lt;p&gt;再次换回 Mist，多次清理本地静态文件，还是不行，难道是上传的时候丢失？&lt;/p&gt;
+&lt;p&gt;已提交 issue。&lt;/p&gt;
+&lt;h4 id=&quot;首页只显示一篇文章的问题&quot;&gt;&lt;a href=&quot;#首页只显示一篇文章的问题&quot; class=&quot;headerlink&quot; title=&quot;首页只显示一篇文章的问题&quot;&gt;&lt;/a&gt;首页只显示一篇文章的问题&lt;/h4&gt;&lt;p&gt;这个问题很让人疑惑，因为有几次什么都没有做，重新部署后就恢复了正常。&lt;/p&gt;
+&lt;p&gt;尝试重新更新主题文件后，发现提示本地的 config 文件为了防止丢失设置，并没有一起更新，备份并删除后，再次更新。&lt;/p&gt;
+&lt;p&gt;结果不仅解决了这个问题，还解决了移动端的响应。。。&lt;/p&gt;
+&lt;p&gt;而且主题样式还有了更新。。。&lt;/p&gt;
+&lt;p&gt;真是明珠暗投啊，这么好的主题被我瞎折腾出这么多“问题”。。。&lt;/p&gt;
+&lt;p&gt;要认真读代码和文档啊！&lt;/p&gt;
+&lt;h4 id=&quot;搜索优化&quot;&gt;&lt;a href=&quot;#搜索优化&quot; class=&quot;headerlink&quot; title=&quot;搜索优化&quot;&gt;&lt;/a&gt;搜索优化&lt;/h4&gt;&lt;p&gt;向搜索引擎提交博客网址：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.google.com/webmasters/tools/home?hl=zh-CN&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;谷歌搜索引擎提交入口&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.baidu.com/search/url_submit.htm&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;百度搜索引擎提交入口&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;百度搜索的提交略麻烦，需要验证，我使用的是 CNAME 验证。&lt;/p&gt;
+&lt;p&gt;但疑惑的是，百度搜索提交后也搜不到网站。&lt;/p&gt;
+&lt;p&gt;如果有自己的 Google Analysis 账号，这一步就简单多了。&lt;/p&gt;
+&lt;p&gt;安装 hexo 的 sitemap 插件：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;npm install hexo-generator-sitemap --save&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;npm install hexo-generator-baidu-sitemap --save&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;在站点配置文件 config.yml 中添加下列字段：&lt;/p&gt;
+&lt;figure class=&quot;highlight avrasm&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;# hexo sitemap&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;sitemap:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;path:&lt;/span&gt; sitemap.xml&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;baidusitemap:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;path:&lt;/span&gt; baidusitemap.xml&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;在 source 文件夹中建立蜘蛛协议 robots.txt，在其中添加如下字段：&lt;/p&gt;
+&lt;figure class=&quot;highlight dts&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;# hexo robots.txt&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;User-agent: *&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;Allow:&lt;/span&gt; /&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;Allow:&lt;/span&gt; &lt;span class=&quot;meta-keyword&quot;&gt;/archives/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Disallow:&lt;/span&gt; &lt;span class=&quot;meta-keyword&quot;&gt;/vendors/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;Disallow:&lt;/span&gt; &lt;span class=&quot;meta-keyword&quot;&gt;/js/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;Disallow:&lt;/span&gt; &lt;span class=&quot;meta-keyword&quot;&gt;/css/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;Disallow:&lt;/span&gt; &lt;span class=&quot;meta-keyword&quot;&gt;/fonts/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;Disallow:&lt;/span&gt; &lt;span class=&quot;meta-keyword&quot;&gt;/vendors/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;Disallow:&lt;/span&gt; &lt;span class=&quot;meta-keyword&quot;&gt;/fancybox/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Sitemap:&lt;/span&gt; http:&lt;span class=&quot;comment&quot;&gt;//www.wenider.com/sitemap.xml&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;Sitemap:&lt;/span&gt; http:&lt;span class=&quot;comment&quot;&gt;//www.wenider.com/baidusitemap.xml&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;把其中的 Sitemap 修改为自己博客的网址，指定指向站点地图的路径。&lt;/p&gt;
+&lt;p&gt;配置后在 public 文件夹中可以分别将 sitemap.xml 和 baidusitemap.xml 提交给&lt;a href=&quot;https://www.google.com/webmasters/tools/home?hl=zh-CN&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;谷歌&lt;/a&gt;和&lt;a href=&quot;http://zhanzhang.baidu.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;百度&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;提交到谷歌后，发现读取错误：URL not allowed，同时右侧的网址示例都是这样的：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;http://yoursite.com/tags/index.html&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;这个问题出在站点配置文件，进入 hexo 的 config.yml，将 url 后的 &lt;a href=&quot;http://yoursite.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://yoursite.com&lt;/a&gt; 改为自己的站点地址，就可以搞定了。&lt;/p&gt;
+&lt;p&gt;但百度这边还会出现这样的情况：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;FATAL duplicated mapping key at line 88, column 23
+path: baidusitemap.xml
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;我还找不到这句语法错在哪里，只能删掉。不过，就算删掉这句，baidusitemap.xml 该出来还是会出来，可能是之前装的插件弄的吧。。。&lt;/p&gt;
+&lt;p&gt;百度站点地图提交的位置隐藏较深，在［网页抓取］下的［链接提交］页面的下半部分的［sitemap］标签里，提交结束后，还可以检测并更新［robots］。&lt;/p&gt;
+&lt;p&gt;不过，百度统计在提交成功后，显示的是抓取失败，使用百度也搜不到博客的地址。等一段时间再看看吧。&lt;/p&gt;
+&lt;h4 id=&quot;增加阅读量统计&quot;&gt;&lt;a href=&quot;#增加阅读量统计&quot; class=&quot;headerlink&quot; title=&quot;增加阅读量统计&quot;&gt;&lt;/a&gt;增加阅读量统计&lt;/h4&gt;&lt;p&gt;根据 Next 文档的介绍，选择 &lt;a href=&quot;https://leancloud.cn&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Leancloud&lt;/a&gt; 方式记录阅读量，建立了账户后，直接新建任意命名的应用，并点击［存储］页面的数据右上角的设置，新建 Class，用于专门保存博客阅读量的数据，Class 命名为 &lt;code&gt;Counter&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;点击顶部导航的设置，进入［应用 key］，就可以看到所需要的 App ID 和 App Key，复制并在NexT主题的 config.yml 文件中相应的位置填入即可：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xir8n.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-06-01%20%E4%B8%8B%E5%8D%888.39.26.png&quot; alt=&quot;Leancloud 语句&quot;&gt;&lt;/p&gt;
+&lt;p&gt;重新部署博客，需要特别说明的是，记录文章访问量的唯一标识符是文章的［&lt;strong&gt;发布日期&lt;/strong&gt;］以及［&lt;strong&gt;文章的标题&lt;/strong&gt;］，因此请确保这两个数值组合的唯一性，如果你更改了这两个数值，会造成文章阅读数值的清零重计。&lt;/p&gt;
+&lt;p&gt;令附上需要注意的&lt;strong&gt;后台管理&lt;/strong&gt;和&lt;strong&gt;&lt;a href=&quot;https://leancloud.cn/docs/data_security.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;隐私安全&lt;/a&gt;&lt;/strong&gt;问题，在&lt;a href=&quot;https://notes.wanghao.work/2015-10-21-%E4%B8%BANexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E9%87%8F%E7%BB%9F%E8%AE%A1%E5%8A%9F%E8%83%BD.html#%E9%85%8D%E7%BD%AELeanCloud&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;原文&lt;/a&gt;中都有提到。&lt;/p&gt;
+&lt;p&gt;个人由于姿势水平不足，无法独立设置 web 安全域名，先&lt;u&gt;挖个坑&lt;/u&gt;。虽然没有完美攻略，不过还是成功完成这个任务。&lt;/p&gt;
+&lt;h4 id=&quot;社会化功能&quot;&gt;&lt;a href=&quot;#社会化功能&quot; class=&quot;headerlink&quot; title=&quot;社会化功能&quot;&gt;&lt;/a&gt;社会化功能&lt;/h4&gt;&lt;p&gt;修改主题配置文件中的 social 和 social_icons 字段，部署时 &lt;code&gt;layout/.DS_Store&lt;/code&gt; 出错，本地预览发现右侧边栏的社会化部分溢出，应该是设计的自动换行，或者是 CSS 出了问题。&lt;/p&gt;
+&lt;p&gt;经过测试，社交链接是默认居中的，这样一看，没有 icon 还挺简洁的，先这样吧。&lt;/p&gt;
+&lt;p&gt;不过再&lt;u&gt;挖个坑&lt;/u&gt;，编译的时候出这么多 error 太丑了。&lt;/p&gt;
+&lt;h4 id=&quot;可添加音乐播放器（网易云）&quot;&gt;&lt;a href=&quot;#可添加音乐播放器（网易云）&quot; class=&quot;headerlink&quot; title=&quot;可添加音乐播放器（网易云）&quot;&gt;&lt;/a&gt;可添加音乐播放器（网易云）&lt;/h4&gt;&lt;p&gt;将单曲或歌单的外链扔进 markdown 里，如果不想自动播放，把代码中的 &lt;code&gt;aotu&lt;/code&gt; 值从 &lt;code&gt;1&lt;/code&gt; 改到 &lt;code&gt;0&lt;/code&gt; 即可。太简单了。&lt;/p&gt;
+&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;86&quot; src=&quot;http://music.163.com/outchain/player?type=2&amp;id=5137631&amp;auto=0&amp;height=66&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;后记：所有这些好玩的东西都可以从 &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo&lt;/a&gt; 和 &lt;a href=&quot;http://theme-next.iissnan.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;next&lt;/a&gt; 的文档中找到，越看越玩越觉得自己菜，太感谢大神的开源和分享了。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;博客很久没有使用，今天集中维护下，同时添加了一些小的优化。同时，本文将作为维护日志保持更新。&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;&lt;em&gt;2016.06.01&lt;/em&gt;&lt;/u&gt;：还有两个坑没填。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="http://www.wenider.com/tags/Hexo/"/>
+    
+      <category term="Next" scheme="http://www.wenider.com/tags/Next/"/>
+    
+  </entry>
   
   <entry>
     <title>百年孤独到底讲了怎样的孤独？</title>
