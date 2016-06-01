@@ -269,9 +269,9 @@
     </summary>
     
     
-      <category term="Comics" scheme="http://yoursite.com/tags/Comics/"/>
-    
       <category term="Reading" scheme="http://yoursite.com/tags/Reading/"/>
+    
+      <category term="Comics" scheme="http://yoursite.com/tags/Comics/"/>
     
   </entry>
   
