@@ -94,13 +94,13 @@
 <meta property="og:site_name" content="Wen">
 <meta property="og:description" content="博客很久没有使用，今天集中维护下，同时添加了一些小的优化。同时，本文将作为维护日志保持更新。
 2016.06.01：还有两个坑没填。">
-<meta property="og:image" content="http://7xir8n.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-06-01%20%E4%B8%8B%E5%8D%888.39.26.png">
-<meta property="og:updated_time" content="2016-06-01T14:35:33.000Z">
+<meta property="og:image" content="http://7xir8n.com1.z0.glb.clouddn.com/leancloud">
+<meta property="og:updated_time" content="2016-06-01T14:46:15.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Update">
 <meta name="twitter:description" content="博客很久没有使用，今天集中维护下，同时添加了一些小的优化。同时，本文将作为维护日志保持更新。
 2016.06.01：还有两个坑没填。">
-<meta name="twitter:image" content="http://7xir8n.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-06-01%20%E4%B8%8B%E5%8D%888.39.26.png">
+<meta name="twitter:image" content="http://7xir8n.com1.z0.glb.clouddn.com/leancloud">
 
 
 
@@ -396,7 +396,7 @@ path: baidusitemap.xml
 <p>不过，百度统计在提交成功后，显示的是抓取失败，使用百度也搜不到博客的地址。等一段时间再看看吧。</p>
 <h4 id="增加阅读量统计"><a href="#增加阅读量统计" class="headerlink" title="增加阅读量统计"></a>增加阅读量统计</h4><p>根据 Next 文档的介绍，选择 <a href="https://leancloud.cn" target="_blank" rel="external">Leancloud</a> 方式记录阅读量，建立了账户后，直接新建任意命名的应用，并点击［存储］页面的数据右上角的设置，新建 Class，用于专门保存博客阅读量的数据，Class 命名为 <code>Counter</code>。</p>
 <p>点击顶部导航的设置，进入［应用 key］，就可以看到所需要的 App ID 和 App Key，复制并在NexT主题的 config.yml 文件中相应的位置填入即可：</p>
-<p><img src="http://7xir8n.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-06-01%20%E4%B8%8B%E5%8D%888.39.26.png" alt="Leancloud 语句"></p>
+<p><img src="http://7xir8n.com1.z0.glb.clouddn.com/leancloud" alt="Leancloud"></p>
 <p>重新部署博客，需要特别说明的是，记录文章访问量的唯一标识符是文章的［<strong>发布日期</strong>］以及［<strong>文章的标题</strong>］，因此请确保这两个数值组合的唯一性，如果你更改了这两个数值，会造成文章阅读数值的清零重计。</p>
 <p>令附上需要注意的<strong>后台管理</strong>和<strong><a href="https://leancloud.cn/docs/data_security.html" target="_blank" rel="external">隐私安全</a></strong>问题，在<a href="https://notes.wanghao.work/2015-10-21-%E4%B8%BANexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E9%87%8F%E7%BB%9F%E8%AE%A1%E5%8A%9F%E8%83%BD.html#%E9%85%8D%E7%BD%AELeanCloud" target="_blank" rel="external">原文</a>中都有提到。</p>
 <p>个人由于姿势水平不足，无法独立设置 web 安全域名，先<u>挖个坑</u>。虽然没有完美攻略，不过还是成功完成这个任务。</p>
@@ -404,7 +404,7 @@ path: baidusitemap.xml
 <p>经过测试，社交链接是默认居中的，这样一看，没有 icon 还挺简洁的，先这样吧。</p>
 <p>不过再<u>挖个坑</u>，编译的时候出这么多 error 太丑了。</p>
 <h4 id="可添加音乐播放器（网易云）"><a href="#可添加音乐播放器（网易云）" class="headerlink" title="可添加音乐播放器（网易云）"></a>可添加音乐播放器（网易云）</h4><p>将单曲或歌单的外链扔进 markdown 里，如果不想自动播放，把代码中的 <code>aotu</code> 值从 <code>1</code> 改到 <code>0</code> 即可。太简单了。</p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="http://music.163.com/outchain/player?type=2&id=5137631&auto=0&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="http://music.163.com/outchain/player?type=2&id=28960915&auto=0&height=66"></iframe>
 
 <p>后记：所有这些好玩的东西都可以从 <a href="https://hexo.io/" target="_blank" rel="external">hexo</a> 和 <a href="http://theme-next.iissnan.com/" target="_blank" rel="external">next</a> 的文档中找到，越看越玩越觉得自己菜，太感谢大神的开源和分享了。</p>
 
