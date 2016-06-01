@@ -2,6 +2,7 @@
 User-agent: *
 Allow: /
 Allow: /archives/
+Allow: /tags/
 
 Disallow: /vendors/
 Disallow: /js/
@@ -10,4 +11,5 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: http://www.wenider.com/sitemap.xml
+Sitemap: http://www.wenider.com/sitemap.xml/
+Sitemap: http://www.wenider.com/baidusitemap.xml/
