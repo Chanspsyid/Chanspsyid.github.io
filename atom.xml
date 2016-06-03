@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.wenider.com/"/>
-  <updated>2016-06-01T14:46:15.000Z</updated>
+  <updated>2016-06-03T12:11:47.000Z</updated>
   <id>http://www.wenider.com/</id>
   
   <author>
@@ -16,14 +16,241 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>B 站首页用户体验评估：色彩</title>
+    <link href="http://www.wenider.com/2016/06/03/Bilibili-Interface-Design-Usability-Heuristics-Colors/"/>
+    <id>http://www.wenider.com/2016/06/03/Bilibili-Interface-Design-Usability-Heuristics-Colors/</id>
+    <published>2016-06-03T11:26:56.000Z</published>
+    <updated>2016-06-03T12:11:47.000Z</updated>
+    
+    <content type="html">&lt;p&gt;对 B 站进行评估和学习的初衷出于我的个人体验。我曾是一个重度用户，在 B 站收藏的电影超过八百部。很多时候非常好奇，为什么 B 站在 2012 年后，用户量和活跃度开始大幅度超过 A 站。而这些，在打开网站后，不用去讨论哪个功能的具体设计如何，单单分析 B 站对色彩的使用就可以学到很多。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;在界面设计中，文本、结构和色彩是用户得以从界面获取信息的三个基本元素，它们都有着同一个目的：向用户传达清晰的产品信息，也传达产品设计者想让用户觉察的信息。&lt;/p&gt;
+&lt;p&gt;设计优秀的色彩不仅能让用户获得好的视觉体验，还能通过不同色彩的使用，提高界面的可用性，让用户在获取任务信息和完成目标的过程中得到更流畅更积极的体验。&lt;/p&gt;
+&lt;p&gt;本次设计评估的目的，就是收集 B 站首页的色彩信息，分析它是如何通过色彩优化用户体验，提高界面的可用性，并帮助用户理解目标任务。&lt;/p&gt;
+&lt;h3 id=&quot;环境&quot;&gt;&lt;a href=&quot;#环境&quot; class=&quot;headerlink&quot; title=&quot;环境&quot;&gt;&lt;/a&gt;环境&lt;/h3&gt;&lt;p&gt;设备：Mac air 13′&lt;/p&gt;
+&lt;p&gt;浏览器：Chrome 50.0.2661.102 (64-bit)&lt;/p&gt;
+&lt;h3 id=&quot;特点&quot;&gt;&lt;a href=&quot;#特点&quot; class=&quot;headerlink&quot; title=&quot;特点&quot;&gt;&lt;/a&gt;特点&lt;/h3&gt;&lt;p&gt;一句话总结：一个有着特定内容和文化属性、去中心化、高互动率和高互动效率的网站。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;特点&lt;/th&gt;
+&lt;th&gt;细分&lt;/th&gt;
+&lt;th&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;内容&lt;/td&gt;
+&lt;td&gt;ACG&lt;/td&gt;
+&lt;td&gt;ACG 为动画、漫画、游戏的集合，也指二次元内容，包括很多 ACG 衍生的内容，如二次元旅游项目、周边、线下活动等。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;UGC&lt;/td&gt;
+&lt;td&gt;用户生成内容，是指由用户贡献的内容，包括：视频、评论、标签、弹幕、直播等。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;新的交互方式&lt;/td&gt;
+&lt;td&gt;弹幕交互&lt;/td&gt;
+&lt;td&gt;用户和内容、用户（观看者）和用户（提供者和观看者）之间非实时的新交互方式，既可满足交互需求，又可产出 UGC 内容&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;直播交互&lt;/td&gt;
+&lt;td&gt;用户与用户间的实时交互&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;社区性&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;以相应的用户群体为基础，组织其感兴趣的活动，如：线上和线下的活动、各种专题、画友、用户之间的互动等&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&quot;用户&quot;&gt;&lt;a href=&quot;#用户&quot; class=&quot;headerlink&quot; title=&quot;用户&quot;&gt;&lt;/a&gt;用户&lt;/h3&gt;&lt;p&gt;一句话总结：有一定 ACG 相关和娱乐兴趣的、易接受新鲜事物的、生活压力相对不大的年轻用户。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;B 站用户总览：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;女性用户的比例远远高于平均水平，男性用户的比例低于平均水平，但总体上男性用户要远高于女性用户。（Alexa，百度指数）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;来自家庭的 web 访问超过平均水平，工作和学校环境的访问低于平均水平（Alexa）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;B 站的城市热度排行靠前的为国内一二线城市，港台地区的热度也很高（谷歌趋势）；华东和华北的用户比重较竞品高（百度指数）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;B 站用户的年龄分布集中在 30 岁以下，其中 19 岁以下用户在总体中所占比率是其竞品的二倍（百度指数）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;注：信息来源为 Alexa，谷歌趋势，百度指数（数据均基于 web 端）。由于样本偏差可能较大，因此这些数据仅供参考。&lt;/p&gt;
+&lt;h3 id=&quot;色彩属性总览&quot;&gt;&lt;a href=&quot;#色彩属性总览&quot; class=&quot;headerlink&quot; title=&quot;色彩属性总览&quot;&gt;&lt;/a&gt;色彩属性总览&lt;/h3&gt;&lt;p&gt;黑、白、灰作为主色，蓝、粉作为辅助色&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;颜色&lt;/th&gt;
+&lt;th&gt;色值&lt;/th&gt;
+&lt;th&gt;作用&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;白&lt;/td&gt;
+&lt;td&gt;ffffff&lt;/td&gt;
+&lt;td&gt;页面背景颜色，图片内文本和控件的反馈色，排行榜和搜索的背景反馈色&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;黑&lt;/td&gt;
+&lt;td&gt;222222&lt;/td&gt;
+&lt;td&gt;主要文本，如导航、分类、视频名称、页面控件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;灰&lt;/td&gt;
+&lt;td&gt;99a2aa&lt;/td&gt;
+&lt;td&gt;次要文本，如推广中的链接文本，推广右侧的页面入口文本，分类推荐中视频播放信息&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;ccd0d7&lt;/td&gt;
+&lt;td&gt;控件方框，控件反馈色&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;e5e9ef&lt;/td&gt;
+&lt;td&gt;即时推荐信息页面入口背景，分类排行更多背景&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;f6f9fa&lt;/td&gt;
+&lt;td&gt;右侧导航挂件背景&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;b8c0cc&lt;/td&gt;
+&lt;td&gt;排行符号背景&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;…&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;蓝&lt;/td&gt;
+&lt;td&gt;00a1d6&lt;/td&gt;
+&lt;td&gt;当前状态提示，可点击元素反馈&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;粉&lt;/td&gt;
+&lt;td&gt;f25d8e&lt;/td&gt;
+&lt;td&gt;重要细节信息，特别页面（有固定规则的）入口&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&quot;色彩易用性评估&quot;&gt;&lt;a href=&quot;#色彩易用性评估&quot; class=&quot;headerlink&quot; title=&quot;色彩易用性评估&quot;&gt;&lt;/a&gt;色彩易用性评估&lt;/h3&gt;&lt;h4 id=&quot;可见性：&quot;&gt;&lt;a href=&quot;#可见性：&quot; class=&quot;headerlink&quot; title=&quot;可见性：&quot;&gt;&lt;/a&gt;可见性：&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;使用黑色、白色、灰色作为初始页面的基础色彩&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;使用蓝色作为当前状态的主动提示，如：专题推荐的页面选择器，分类推荐的标签&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;使用灰色作为次级导航和页面控件的反馈色&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;可发现性：&quot;&gt;&lt;a href=&quot;#可发现性：&quot; class=&quot;headerlink&quot; title=&quot;可发现性：&quot;&gt;&lt;/a&gt;可发现性：&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;黑、白、灰三种色彩表达出层次分明的信息层级，奠定可发现性的基础&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;蓝色作为当前状态提示，与黑色形成对比色&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;粉色作为重要细节颜色，与白色形成对比色&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;使用背景色帮助获取注意，增强相应元素的可发现性&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;熟悉的语言：&quot;&gt;&lt;a href=&quot;#熟悉的语言：&quot; class=&quot;headerlink&quot; title=&quot;熟悉的语言：&quot;&gt;&lt;/a&gt;熟悉的语言：&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;蓝白配色是二次元的经典 CP 配色，有着深刻的认同和情感&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;纯白的背景色传达了简洁单纯的信息，符合二次元用户对自己的期待，并将这种期待和认同投射到网站&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;粉色是偏向女性化的色彩，既向用户量超过平均水平的 B 站女性用户传达了界面友好的信息，也展示了“软萌”、“宅”的属性，偏女性化的表达对引发二次元用户的情感投入很有帮助&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;一致性：&quot;&gt;&lt;a href=&quot;#一致性：&quot; class=&quot;headerlink&quot; title=&quot;一致性：&quot;&gt;&lt;/a&gt;一致性：&lt;/h4&gt;&lt;p&gt;主要是灰色，因其用法多样：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;内容：视频的细节信息&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;推荐：分类推荐的链接文本、其他视频推荐页面入口的链接文本、搜索推荐的文本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;背景：侧边栏导航挂件、其他视频推荐页面入口、分类排行的更多&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;反馈：次级导航、分类控件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在对灰色的评估中，会发现一个特别之处：同样是作为背景色，尽管色值相同，它们的用法并不相同：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在线人数／最新投稿：&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;初始状态：灰色背景、灰色文本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;反馈状态：灰色背景，蓝色文本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;更多&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;初始状态：灰色背景，黑色文本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;反馈状态：深灰色背景，黑色文本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;评价&quot;&gt;&lt;a href=&quot;#评价&quot; class=&quot;headerlink&quot; title=&quot;评价&quot;&gt;&lt;/a&gt;评价&lt;/h3&gt;&lt;p&gt;在评价一个网站的色彩设计时，有三个重要的维度：一是符合产品定位，二是契合用户习惯，三是极简化。&lt;/p&gt;
+&lt;p&gt;在产品定位上，B 站是一个有特定内容和文化属性网站，一方面要满足特定群体对内容的旺盛需求，另一方面也要为新的内容产出方式提供优秀的服务，还也要为用户群体的活跃度做出引导贡献。这就要求 B 站在产品视觉上更加二次元化，对色彩的要求也就更活泼年轻，以表达对用户群体和产品内容的相应期望，在这一点上，B 站做的很优秀。&lt;/p&gt;
+&lt;p&gt;在对用户习惯的揣摩和引导上，B 站做的也是相当有成效。&lt;/p&gt;
+&lt;p&gt;从之前的用户概览可以看出，B 站的 75% 左右的用户都在 30 岁以下，且大部分都对 ACG 内容有着相当的兴趣，尽管随着用户体量的不断增加，用户属性变得更加复杂，但实质上依然属于对某一类内容有一定兴趣的群体。这要求 B 站在视觉上更贴合用户的习惯，让用户可以从视觉上找到熟悉和认同的感觉。&lt;/p&gt;
+&lt;p&gt;从以上的评估中可以看到，B 站对用户的理解是很到位的，即通过通过色彩的使用表达了对二次元群体文化的融合，又针对用户群体的宅属性和软萌属性进一步提升友好度。&lt;/p&gt;
+&lt;p&gt;此外，新的内容产出方式和交互方式要求 B 站从视觉和界面易用性上可以引导用户进行更多的参与，除了使用活泼积极的色彩来引导用户情绪之外，使用色彩来增强界面的易用性、更好地引导用户完成目标也是很重要的部分。在这上面，B 站也做得很好。&lt;/p&gt;
+&lt;p&gt;对于极简风格，我认为含义明确和层次分明的色彩设计就是对极简主义的最好诠释，而 B 站在其本身丰富的信息和视觉上极简的要求之间平衡得很好。&lt;/p&gt;
+&lt;h3 id=&quot;疑问&quot;&gt;&lt;a href=&quot;#疑问&quot; class=&quot;headerlink&quot; title=&quot;疑问&quot;&gt;&lt;/a&gt;疑问&lt;/h3&gt;&lt;p&gt;在网站的信息设计中，除了要通过色彩增加信息的表现力之外，更重要的是通过色彩，来表达界面中信息的不同层级和向人们做出的行为进行反馈，以此来帮助人们理解：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在所有的界面信息中，什么是重要的，什么是次要的；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;在信息丰富的界面上，我在哪里，我在做什么。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;回头再看那个令我产生疑惑的地方：背景色的使用目的是为了使功能更容易被发现和识别，我觉得它的设计目的是达到了。但基于对问题的执著疑问，我产生了这样的思考：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;既然它很重要，那为什么要放在这个位置？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;如果只能放在这里，有没有更优雅的方式可以达成目标呢？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如同预料，想要解决第一个问题，需要对 B 站首页的信息架构进行梳理，以清楚它在信息架构和用户目标中的地位。&lt;/p&gt;
+&lt;p&gt;而为了解决第二个问题，我还要解决另外的问题：在已经达成设计目标的情况下，当前的设计合理吗？如何处理重设计的风险？&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;再写下去，又该是长文了，重开一坑吧&lt;/em&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;对 B 站进行评估和学习的初衷出于我的个人体验。我曾是一个重度用户，在 B 站收藏的电影超过八百部。很多时候非常好奇，为什么 B 站在 2012 年后，用户量和活跃度开始大幅度超过 A 站。而这些，在打开网站后，不用去讨论哪个功能的具体设计如何，单单分析 B 站对色彩的使用就可以学到很多。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Usability Heuristics" scheme="http://www.wenider.com/tags/Usability-Heuristics/"/>
+    
+      <category term="Project Analysis" scheme="http://www.wenider.com/tags/Project-Analysis/"/>
+    
+      <category term="Interface Design" scheme="http://www.wenider.com/tags/Interface-Design/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Update</title>
     <link href="http://www.wenider.com/2016/06/01/Blog-Update/"/>
     <id>http://www.wenider.com/2016/06/01/Blog-Update/</id>
     <published>2016-06-01T14:26:56.000Z</published>
-    <updated>2016-06-01T14:46:15.000Z</updated>
+    <updated>2016-06-03T11:52:41.000Z</updated>
     
-    <content type="html">&lt;p&gt;博客很久没有使用，今天集中维护下，同时添加了一些小的优化。同时，本文将作为维护日志保持更新。&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;&lt;em&gt;2016.06.01&lt;/em&gt;&lt;/u&gt;：还有两个坑没填。&lt;/p&gt;
+    <content type="html">&lt;p&gt;博客很久没有使用，今天集中维护下，添加了一些小的优化。同时，本文将作为维护日志保持更新。&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;&lt;em&gt;2016.06.01&lt;/em&gt;&lt;/u&gt;：还有两个坑没填&lt;/p&gt;
  &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h4 id=&quot;博客架构更新：&quot;&gt;&lt;a href=&quot;#博客架构更新：&quot; class=&quot;headerlink&quot; title=&quot;博客架构更新：&quot;&gt;&lt;/a&gt;博客架构更新：&lt;/h4&gt;&lt;p&gt;更新 hexo：&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;npm update -g hexo&lt;/code&gt;&lt;/p&gt;
@@ -90,8 +317,8 @@ path: baidusitemap.xml
     
     <summary type="html">
     
-      &lt;p&gt;博客很久没有使用，今天集中维护下，同时添加了一些小的优化。同时，本文将作为维护日志保持更新。&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;&lt;em&gt;2016.06.01&lt;/em&gt;&lt;/u&gt;：还有两个坑没填。&lt;/p&gt;
+      &lt;p&gt;博客很久没有使用，今天集中维护下，添加了一些小的优化。同时，本文将作为维护日志保持更新。&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;&lt;em&gt;2016.06.01&lt;/em&gt;&lt;/u&gt;：还有两个坑没填&lt;/p&gt;
     
     </summary>
     
@@ -107,12 +334,12 @@ path: baidusitemap.xml
     <link href="http://www.wenider.com/2016/05/31/bainiangudu/"/>
     <id>http://www.wenider.com/2016/05/31/bainiangudu/</id>
     <published>2016-05-30T16:00:00.000Z</published>
-    <updated>2016-05-31T14:14:14.000Z</updated>
+    <updated>2016-06-03T11:51:15.000Z</updated>
     
     <content type="html">&lt;p&gt;半个月前，我就已经读完了这本书。但如果让我在那时说点什么，可能憋半天，也只有这一句：果然是一本魔幻现实主义小说啊。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;显然是在用术语掩盖无知，鉴于对我节操尚存的期待，也为了能真的理解一些东西，我又回头读了一遍。&lt;/p&gt;
-&lt;p&gt;这一次，我觉察到了加西亚 · 马尔克斯隐藏在文字背后的那些象征和隐喻，但直到我读完第三遍，才对它们有了一些理解，也隐约明白了这百年的孤独到底藏在哪里，也似乎看到了它与我，通过马尔克斯的文字，进行了怎样的对话。&lt;/p&gt;
+&lt;p&gt;显然是在用术语掩盖无知，为了能真的理解一些东西，我又回头读了一遍。&lt;/p&gt;
+&lt;p&gt;这一次，我觉察到了加西亚 · 马尔克斯隐藏在文字背后的那些象征和隐喻，但直到我读完第三遍，才对它们有了一些理解，也隐约明白了这百年的孤独到底藏在哪里，也似乎看到了孤独与我，通过马尔克斯的文字，进行了怎样的对话。&lt;/p&gt;
 &lt;p&gt;其中，让我印象最深的，莫过于梅梅的儿子：奥雷里亚诺 · 布恩迪亚，他在加泰罗尼亚智者书店里，与四位论争者第一次会面时的“宿命论谈”：如何灭杀蟑螂。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;蟑螂是人类最古老的敌人之一，但它凭借着顽强的生命力战胜了一切灭杀方式，以其无穷的变种抵抗住了人类最古老、最执著也最残酷的迫害，灭杀蟑螂可谓已经成了人类除了繁衍后代之外更明确、更迫切的本能，而蟑螂之所以能逃过人类凶狠的捕杀，只是因为它们成功地躲入黑暗，利用了人类与生俱来对黑暗的恐惧，但同时它们也变得对正午的阳光十分敏感。故此，无论在中世纪、在如今还是在将来的世代，有效灭杀蟑螂的方式唯有光照而已。&lt;/p&gt;
