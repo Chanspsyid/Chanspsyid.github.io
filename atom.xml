@@ -927,15 +927,18 @@
   </entry>
   
   <entry>
-    <title>Update</title>
+    <title>网站 Update</title>
     <link href="http://www.wenider.com/2016/06/01/Blog-Update/"/>
     <id>http://www.wenider.com/2016/06/01/Blog-Update/</id>
     <published>2016-06-01T14:26:56.000Z</published>
-    <updated>2016-06-03T11:52:41.000Z</updated>
+    <updated>2016-12-02T08:44:21.000Z</updated>
     
-    <content type="html">&lt;p&gt;博客很久没有使用，今天集中维护下，添加了一些小的优化。同时，本文将作为维护日志保持更新。&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;&lt;em&gt;2016.06.01&lt;/em&gt;&lt;/u&gt;：还有两个坑没填&lt;/p&gt;
- &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+    <content type="html">&lt;p&gt;&lt;u&gt;&lt;em&gt;2016.12.02&lt;/em&gt;&lt;/u&gt;：更新腾讯统计、&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;u&gt;&lt;em&gt;2016.12.01&lt;/em&gt;&lt;/u&gt;：填坑：百度统计、Leancloud 安全域名&lt;/p&gt;
+&lt;p&gt;主要的填坑方式：看&lt;a href=&quot;http://theme-next.iissnan.com/getting-started.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;文档&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;博客很久没有使用，今天集中维护下，添加了一些小的优化。同时，本文将作为维护日志保持更新。&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;&lt;em&gt;2016.06.01&lt;/em&gt;&lt;/u&gt;：还有两个坑没填：百度统计、Leancloud 安全域名&lt;/p&gt;
 &lt;h4 id=&quot;博客架构更新：&quot;&gt;&lt;a href=&quot;#博客架构更新：&quot; class=&quot;headerlink&quot; title=&quot;博客架构更新：&quot;&gt;&lt;/a&gt;博客架构更新：&lt;/h4&gt;&lt;p&gt;更新 hexo：&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;npm update -g hexo&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;可能会要求 root 权限，之后输入密码即可：&lt;/p&gt;
@@ -1001,8 +1004,7 @@ path: baidusitemap.xml
     
     <summary type="html">
     
-      &lt;p&gt;博客很久没有使用，今天集中维护下，添加了一些小的优化。同时，本文将作为维护日志保持更新。&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;&lt;em&gt;2016.06.01&lt;/em&gt;&lt;/u&gt;：还有两个坑没填&lt;/p&gt;
+      &lt;p&gt;&lt;u&gt;&lt;em&gt;2016.12.02&lt;/em&gt;&lt;/u&gt;：更新腾讯统计、&lt;/p&gt;
     
     </summary>
     

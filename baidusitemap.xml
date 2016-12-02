@@ -4,6 +4,25 @@
 
     
   <url>
+    <loc>http://www.wenider.com/2016/06/01/Blog-Update/</loc>
+    <lastmod>2016-12-02T08:44:21.000Z</lastmod>
+    <data>
+        <display>
+        <title>网站 Update</title>
+        <pubTime>2016-06-01T14:26:56.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+        <tag>Next</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.wenider.com/2016/12/01/Getting-Ogranized-in-the-Google-Era/</loc>
     <lastmod>2016-12-01T04:39:38.000Z</lastmod>
     <data>
@@ -52,25 +71,6 @@
         <tag>Project Analysis</tag>
          
         <tag>Interface Design</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.wenider.com/2016/06/01/Blog-Update/</loc>
-    <lastmod>2016-06-03T11:52:41.000Z</lastmod>
-    <data>
-        <display>
-        <title>Update</title>
-        <pubTime>2016-06-01T14:26:56.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-        <tag>Next</tag>
          
          
            
