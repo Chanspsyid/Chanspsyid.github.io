@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.wenider.com/"/>
-  <updated>2016-12-04T08:28:40.000Z</updated>
+  <updated>2016-12-04T08:33:45.000Z</updated>
   <id>http://www.wenider.com/</id>
   
   <author>
@@ -17,10 +17,10 @@
   
   <entry>
     <title>自动售卖机重设计 01：调研脚本</title>
-    <link href="http://www.wenider.com/2016/12/03/zi-dong-shou-huo-ji-Redesign-01/"/>
-    <id>http://www.wenider.com/2016/12/03/zi-dong-shou-huo-ji-Redesign-01/</id>
+    <link href="http://www.wenider.com/2016/12/03/zi-dong-shou-mai-ji-Redesign-01/"/>
+    <id>http://www.wenider.com/2016/12/03/zi-dong-shou-mai-ji-Redesign-01/</id>
     <published>2016-12-02T16:00:00.000Z</published>
-    <updated>2016-12-04T08:28:40.000Z</updated>
+    <updated>2016-12-04T08:33:45.000Z</updated>
     
     <content type="html">&lt;p&gt;为什么要对自动售卖机进行重设计？&lt;/p&gt;
 &lt;p&gt;因为以前用它的时候觉得很方便，也看到了很多人在使用它。但同时也发现它存在很多问题：机器故障（按钮失效、无法支付、缺货未补）、界面丑陋不便、机器难以被发现、广告繁多影响使用、不符合人体工学、没有想要的货物、货品偏贵等问题。我觉得它的存在的确方便了很多人，但很明显它并没有做好自己“应该做的事情”，因此尝试重设计一款自动智能售卖机来“满足自己的想象”。&lt;/p&gt;
