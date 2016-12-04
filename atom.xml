@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.wenider.com/"/>
-  <updated>2016-12-04T07:36:47.000Z</updated>
+  <updated>2016-12-04T08:25:26.000Z</updated>
   <id>http://www.wenider.com/</id>
   
   <author>
@@ -20,45 +20,45 @@
     <link href="http://www.wenider.com/2016/12/03/zi-dong-shou-huo-ji-Redesign-01/"/>
     <id>http://www.wenider.com/2016/12/03/zi-dong-shou-huo-ji-Redesign-01/</id>
     <published>2016-12-02T16:00:00.000Z</published>
-    <updated>2016-12-04T07:36:47.000Z</updated>
+    <updated>2016-12-04T08:25:26.000Z</updated>
     
     <content type="html">&lt;p&gt;为什么要对自动售卖机进行重设计？&lt;/p&gt;
 &lt;p&gt;因为以前用它的时候觉得很方便，也看到了很多人在使用它。但同时也发现它存在很多问题：机器故障（按钮失效、无法支付、缺货未补）、界面丑陋不便、机器难以被发现、广告繁多影响使用、不符合人体工学、没有想要的货物、货品偏贵等问题。我觉得它的存在的确方便了很多人，但很明显它并没有做好自己“应该做的事情”，因此尝试重设计一款自动智能售卖机来“满足自己的想象”。&lt;/p&gt;
 &lt;p&gt;本文是产品调研脚本。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h1 id=&quot;调研目标&quot;&gt;&lt;a href=&quot;#调研目标&quot; class=&quot;headerlink&quot; title=&quot;调研目标&quot;&gt;&lt;/a&gt;调研目标&lt;/h1&gt;&lt;p&gt;获取自动售卖机的使用场景、用户目标、用户心理模型、当前痛点、产品信息（商业、业务、设计）&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;调研目标&quot;&gt;&lt;a href=&quot;#调研目标&quot; class=&quot;headerlink&quot; title=&quot;调研目标&quot;&gt;&lt;/a&gt;调研目标&lt;/h1&gt;&lt;p&gt;  获取自动售卖机的使用场景、用户目标、用户心理模型、当前痛点、产品信息（商业、业务、设计）&lt;/p&gt;
 &lt;h1 id=&quot;调研环境&quot;&gt;&lt;a href=&quot;#调研环境&quot; class=&quot;headerlink&quot; title=&quot;调研环境&quot;&gt;&lt;/a&gt;调研环境&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;地点：中国科学院大学雁栖湖校区图书馆、教学楼、宿舍楼&lt;/li&gt;
 &lt;li&gt;体验机型：友宝自动售卖机&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;调研方法&quot;&gt;&lt;a href=&quot;#调研方法&quot; class=&quot;headerlink&quot; title=&quot;调研方法&quot;&gt;&lt;/a&gt;调研方法&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;观察法（录像）&lt;/li&gt;
-&lt;li&gt;出声思考（录像）&lt;/li&gt;
-&lt;li&gt;访谈法（笔记）&lt;/li&gt;
-&lt;li&gt;设计师走查（拍照）&lt;/li&gt;
-&lt;li&gt;搜集网络资料（友宝官网、知乎、各新闻稿）&lt;/li&gt;
+&lt;li&gt;观察法（录像）、&lt;/li&gt;
+&lt;li&gt;出声思考（录像）、&lt;/li&gt;
+&lt;li&gt;访谈法（笔记）、&lt;/li&gt;
+&lt;li&gt;设计师走查（拍照）、&lt;/li&gt;
+&lt;li&gt;搜集网络资料（友宝官网、知乎、各新闻稿、应用商店、其他来源）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&quot;调研对象&quot;&gt;&lt;a href=&quot;#调研对象&quot; class=&quot;headerlink&quot; title=&quot;调研对象&quot;&gt;&lt;/a&gt;调研对象&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;中国科学院大学学生&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h1 id=&quot;调研对象&quot;&gt;&lt;a href=&quot;#调研对象&quot; class=&quot;headerlink&quot; title=&quot;调研对象&quot;&gt;&lt;/a&gt;调研对象&lt;/h1&gt;&lt;p&gt;  中国科学院大学学生&lt;/p&gt;
 &lt;h1 id=&quot;调研场地和时间&quot;&gt;&lt;a href=&quot;#调研场地和时间&quot; class=&quot;headerlink&quot; title=&quot;调研场地和时间&quot;&gt;&lt;/a&gt;调研场地和时间&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;图书馆：现场观察4人，出声思考调查和访谈对象2人&lt;/li&gt;
 &lt;li&gt;教学楼：教一大厅，观察时间为中午 12:30-13:30，共两天&lt;/li&gt;
 &lt;li&gt;宿舍楼：观察时间为下午 16:30-17:30，共两天&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
 &lt;h1 id=&quot;访谈脚本实例&quot;&gt;&lt;a href=&quot;#访谈脚本实例&quot; class=&quot;headerlink&quot; title=&quot;访谈脚本实例&quot;&gt;&lt;/a&gt;访谈脚本实例&lt;/h1&gt;&lt;h2 id=&quot;自我介绍&quot;&gt;&lt;a href=&quot;#自我介绍&quot; class=&quot;headerlink&quot; title=&quot;自我介绍&quot;&gt;&lt;/a&gt;自我介绍&lt;/h2&gt;&lt;p&gt;你好，可以打扰你不到十分钟时间做一个有偿的小调查吗？这个调查是个人发起的，目的是了解大家如何使用自动售卖机，如果你愿意接受，请到这边来，不到十分钟。你有拒绝的权利。&lt;/p&gt;
 &lt;h2 id=&quot;指导语&quot;&gt;&lt;a href=&quot;#指导语&quot; class=&quot;headerlink&quot; title=&quot;指导语&quot;&gt;&lt;/a&gt;指导语&lt;/h2&gt;&lt;p&gt;感谢你的参与！这个调查的目的是了解你如何使用自动售卖机购买你想要的商品。在这个调查中，我提出的问题没有对错之分，也不会对你和你的行为做任何评价，目的是为了帮助我更好地理解你在做什么。&lt;/p&gt;
 &lt;p&gt;接下来是谈话安排，我将会先询问你一些关于使用自动售卖机的一般性问题，然后你就可以你想做的事情。当你在进行购买的时候，我希望你可以出声思考，即对你在做的事和你的思考过程做一个即时的说明。你可以说任何你想到的内容，不用担心什么，这个产品不是我设计的。最后有几个问题是关于你的使用感受。&lt;/p&gt;
 &lt;p&gt;我将对购买过程记录一段视频，以便稍后检查确认是否遗漏问题。我不会在记录或结果使用你的名字，录像仅在内部使用，不会分享给任何地方的任何人。&lt;/p&gt;
 &lt;p&gt;你对这些有什么问题吗？&lt;/p&gt;
-&lt;p&gt;请当事人将手机静音。&lt;/p&gt;
-&lt;h2 id=&quot;前置问题&quot;&gt;&lt;a href=&quot;#前置问题&quot; class=&quot;headerlink&quot; title=&quot;前置问题&quot;&gt;&lt;/a&gt;前置问题&lt;/h2&gt;&lt;ul&gt;
+&lt;p&gt;&lt;strong&gt;请受访者将手机静音。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;前置访谈&quot;&gt;&lt;a href=&quot;#前置访谈&quot; class=&quot;headerlink&quot; title=&quot;前置访谈&quot;&gt;&lt;/a&gt;前置访谈&lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;你可以向我说一下你想要做什么吗？（动机）&lt;/li&gt;
 &lt;li&gt;为什么会选择在这里买东西？（决策）&lt;/li&gt;
 &lt;li&gt;在这个过程中，你觉得它带给你什么感觉，会让你比较满意？（体验目标）&lt;/li&gt;
 &lt;li&gt;你希望自动售卖机应该如何服务和被使用？（用户心理模型）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;解释出声思考，打开摄像&lt;/p&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;参与观察&quot;&gt;&lt;a href=&quot;#参与观察&quot; class=&quot;headerlink&quot; title=&quot;参与观察&quot;&gt;&lt;/a&gt;参与观察&lt;/h2&gt;&lt;p&gt;解释出声思考，打开摄像&lt;/p&gt;
 &lt;p&gt;请用户开始使用自动售卖机，并将自己正在进行的行为同步说出来。示范：“我现在想找一个座位，这个座位要靠窗，还要有充电的位置。我看到了一个靠窗户的空位置，现在正在走过去…”&lt;/p&gt;
 &lt;p&gt;在用户操作的时候，关注每一个行为及其变化，对任何疑问之处都要询问：（事后反思此处更适合在实验室进行，公共场所不太适合，原因：时间、羞耻）&lt;/p&gt;
 &lt;ul&gt;
@@ -67,20 +67,18 @@
 &lt;li&gt;“你要怎样去做这个？”&lt;/li&gt;
 &lt;li&gt;“你对这个结果的感受是什么？”&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;事后访谈&quot;&gt;&lt;a href=&quot;#事后访谈&quot; class=&quot;headerlink&quot; title=&quot;事后访谈&quot;&gt;&lt;/a&gt;事后访谈&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;一周内使用自动售卖机的频率是怎样的？&lt;/li&gt;
-&lt;li&gt;除了这里，你最近还在什么地方使用自动售卖机？&lt;/li&gt;
-&lt;li&gt;使用自动售卖机的时候出现过什么问题吗？最后怎么处理的？&lt;/li&gt;
-&lt;li&gt;可否讲述一个花费你很长时间的购买经历？&lt;/li&gt;
-&lt;li&gt;你有没有发现一个总是需要等待或操作很多次的步骤？&lt;/li&gt;
-&lt;li&gt;如果你可以创造一个神奇的东西来让你在这个时候使用或购买，这个工具将会是什么？它将怎样工作？会涉及到哪些东西／商品？（反思后发现问题太复杂，修改为：你理想中的自动售卖机是什么样的？）&lt;/li&gt;
-&lt;li&gt;我问了很多问题，你有什么想问我的吗？&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;结束语&quot;&gt;&lt;a href=&quot;#结束语&quot; class=&quot;headerlink&quot; title=&quot;结束语&quot;&gt;&lt;/a&gt;结束语&lt;/h2&gt;&lt;ul&gt;
+&lt;h2 id=&quot;事后访谈&quot;&gt;&lt;a href=&quot;#事后访谈&quot; class=&quot;headerlink&quot; title=&quot;事后访谈&quot;&gt;&lt;/a&gt;事后访谈&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;你一周内使用自动售卖机的频率是怎样的？（使用频率）&lt;/li&gt;
+&lt;li&gt;除了这里，你最近还在什么地方使用自动售卖机？（使用地点）&lt;/li&gt;
+&lt;li&gt;使用自动售卖机的时候出现过什么问题吗？最后怎么处理的？（痛点）&lt;/li&gt;
+&lt;li&gt;你有没有发现一个总是需要等待或操作很多次的步骤？（流程优化点）&lt;/li&gt;
+&lt;li&gt;可否讲述一次特别的购买经历？（寻找盲点）&lt;/li&gt;
+&lt;li&gt;如果你可以创造一个神奇的东西来让你在这个时候使用或购买，这个工具将会是什么？它将怎样工作？会涉及到哪些东西／商品？（反思后发现问题太复杂，修改为：你理想中的自动售卖机是什么样的？）（探索场景）&lt;/li&gt;
+&lt;li&gt;我问了很多问题，你有什么想问我的吗？（与受访者沟通，为结束缓冲）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;结束语和注意事项&quot;&gt;&lt;a href=&quot;#结束语和注意事项&quot; class=&quot;headerlink&quot; title=&quot;结束语和注意事项&quot;&gt;&lt;/a&gt;结束语和注意事项&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;报酬&lt;/li&gt;
 &lt;li&gt;非常感谢付出时间&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;结束注意&quot;&gt;&lt;a href=&quot;#结束注意&quot; class=&quot;headerlink&quot; title=&quot;结束注意&quot;&gt;&lt;/a&gt;结束注意&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;不要关闭摄像&lt;/li&gt;
 &lt;li&gt;用心记录直到总结  &lt;/li&gt;
 &lt;/ul&gt;
@@ -92,6 +90,8 @@
 &lt;li&gt;人们希望通过购买东西这些做什么？&lt;/li&gt;
 &lt;li&gt;他们使用中出现了什么问题？&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;待续：产品调研分析与重设计定位&lt;/p&gt;
 </content>
     
     <summary type="html">
