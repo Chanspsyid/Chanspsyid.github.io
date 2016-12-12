@@ -88,16 +88,14 @@
 
 <meta name="description" content="2016.12.02：更新腾讯统计、多说评论+分享+热评，关闭搜索功能">
 <meta property="og:type" content="article">
-<meta property="og:title" content="网站 Update">
+<meta property="og:title" content="Update">
 <meta property="og:url" content="http://www.wenider.com/2016/06/01/Blog-Update/index.html">
 <meta property="og:site_name" content="Wen">
 <meta property="og:description" content="2016.12.02：更新腾讯统计、多说评论+分享+热评，关闭搜索功能">
-<meta property="og:image" content="http://7xir8n.com1.z0.glb.clouddn.com/leancloud">
-<meta property="og:updated_time" content="2016-12-02T09:04:59.000Z">
+<meta property="og:updated_time" content="2016-12-12T03:36:13.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="网站 Update">
+<meta name="twitter:title" content="Update">
 <meta name="twitter:description" content="2016.12.02：更新腾讯统计、多说评论+分享+热评，关闭搜索功能">
-<meta name="twitter:image" content="http://7xir8n.com1.z0.glb.clouddn.com/leancloud">
 
 
 
@@ -115,7 +113,7 @@
   };
 </script>
 
-  <title> 网站 Update | Wen </title>
+  <title> Update | Wen </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -273,7 +271,7 @@
             
             
               
-                网站 Update
+                Update
               
             
           </h1>
@@ -307,7 +305,7 @@
 
           
           
-             <span id="/2016/06/01/Blog-Update/" class="leancloud_visitors" data-flag-title="网站 Update">
+             <span id="/2016/06/01/Blog-Update/" class="leancloud_visitors" data-flag-title="Update">
                &nbsp; | &nbsp;
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -329,12 +327,10 @@
       
 
       
-        <p><u><em>2016.12.02</em></u>：更新腾讯统计、多说评论+分享+热评，关闭搜索功能</p>
+        <p>2016.12.02：更新腾讯统计、多说评论+分享+热评，关闭搜索功能</p>
 <a id="more"></a>
-<p><u><em>2016.12.01</em></u>：填坑：百度统计、Leancloud 安全域名</p>
-<p>主要的填坑方式：看<a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="external">文档</a></p>
-<p>博客很久没有使用，今天集中维护下，添加了一些小的优化。同时，本文将作为维护日志保持更新。</p>
-<p><u><em>2016.06.01</em></u>：还有两个坑没填：百度统计、Leancloud 安全域名</p>
+<p>2016.12.01：填坑：百度统计、Leancloud 安全域名</p>
+<p>2016.06.01：还有两个坑没填：百度统计、Leancloud 安全域名</p>
 <h4 id="博客架构更新："><a href="#博客架构更新：" class="headerlink" title="博客架构更新："></a>博客架构更新：</h4><p>更新 hexo：</p>
 <p><code>npm update -g hexo</code></p>
 <p>可能会要求 root 权限，之后输入密码即可：</p>
@@ -352,7 +348,7 @@
 <p>检查 config 文件，没有发现特别的地方。</p>
 <p>修改主题 Mist 为 Pisces后，问题解决。</p>
 <p>再次换回 Mist，多次清理本地静态文件，还是不行，难道是上传的时候丢失？</p>
-<p>已提交 issue。</p>
+<p>已提交 issue。(已解决)</p>
 <h4 id="首页只显示一篇文章的问题"><a href="#首页只显示一篇文章的问题" class="headerlink" title="首页只显示一篇文章的问题"></a>首页只显示一篇文章的问题</h4><p>这个问题很让人疑惑，因为有几次什么都没有做，重新部署后就恢复了正常。</p>
 <p>尝试重新更新主题文件后，发现提示本地的 config 文件为了防止丢失设置，并没有一起更新，备份并删除后，再次更新。</p>
 <p>结果不仅解决了这个问题，还解决了移动端的响应。。。</p>
@@ -384,18 +380,17 @@ path: baidusitemap.xml
 <p>百度站点地图提交的位置隐藏较深，在［网页抓取］下的［链接提交］页面的下半部分的［sitemap］标签里，提交结束后，还可以检测并更新［robots］。</p>
 <p>不过，百度统计在提交成功后，显示的是抓取失败，使用百度也搜不到博客的地址。等一段时间再看看吧。</p>
 <h4 id="增加阅读量统计"><a href="#增加阅读量统计" class="headerlink" title="增加阅读量统计"></a>增加阅读量统计</h4><p>根据 Next 文档的介绍，选择 <a href="https://leancloud.cn" target="_blank" rel="external">Leancloud</a> 方式记录阅读量，建立了账户后，直接新建任意命名的应用，并点击［存储］页面的数据右上角的设置，新建 Class，用于专门保存博客阅读量的数据，Class 命名为 <code>Counter</code>。</p>
-<p>点击顶部导航的设置，进入［应用 key］，就可以看到所需要的 App ID 和 App Key，复制并在NexT主题的 config.yml 文件中相应的位置填入即可：</p>
-<p><img src="http://7xir8n.com1.z0.glb.clouddn.com/leancloud" alt="Leancloud"></p>
+<p>点击顶部导航的设置，进入［应用 key］，就可以看到所需要的 App ID 和 App Key，复制并在NexT主题的 config.yml 文件中相应的位置填入即可.</p>
 <p>重新部署博客，需要特别说明的是，记录文章访问量的唯一标识符是文章的［<strong>发布日期</strong>］以及［<strong>文章的标题</strong>］，因此请确保这两个数值组合的唯一性，如果你更改了这两个数值，会造成文章阅读数值的清零重计。</p>
-<p>令附上需要注意的<strong>后台管理</strong>和<strong><a href="https://leancloud.cn/docs/data_security.html" target="_blank" rel="external">隐私安全</a></strong>问题，在<a href="https://notes.wanghao.work/2015-10-21-%E4%B8%BANexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E9%87%8F%E7%BB%9F%E8%AE%A1%E5%8A%9F%E8%83%BD.html#%E9%85%8D%E7%BD%AELeanCloud" target="_blank" rel="external">原文</a>中都有提到。</p>
+<p>令附上需要注意的<strong>后台管理</strong>和**<a href="https://leancloud.cn/docs/data_security.html" target="_blank" rel="external">隐私安全</a>问题，在<a href="https://notes.wanghao.work/2015-10-21-%E4%B8%BANexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E9%87%8F%E7%BB%9F%E8%AE%A1%E5%8A%9F%E8%83%BD.html#%E9%85%8D%E7%BD%AELeanCloud" target="_blank" rel="external">原文</a>中都有提到。</p>
 <p>个人由于姿势水平不足，无法独立设置 web 安全域名，先<u>挖个坑</u>。虽然没有完美攻略，不过还是成功完成这个任务。</p>
 <h4 id="社会化功能"><a href="#社会化功能" class="headerlink" title="社会化功能"></a>社会化功能</h4><p>修改主题配置文件中的 social 和 social_icons 字段，部署时 <code>layout/.DS_Store</code> 出错，本地预览发现右侧边栏的社会化部分溢出，应该是设计的自动换行，或者是 CSS 出了问题。</p>
 <p>经过测试，社交链接是默认居中的，这样一看，没有 icon 还挺简洁的，先这样吧。</p>
 <p>不过再<u>挖个坑</u>，编译的时候出这么多 error 太丑了。</p>
 <h4 id="可添加音乐播放器（网易云）"><a href="#可添加音乐播放器（网易云）" class="headerlink" title="可添加音乐播放器（网易云）"></a>可添加音乐播放器（网易云）</h4><p>将单曲或歌单的外链扔进 markdown 里，如果不想自动播放，把代码中的 <code>aotu</code> 值从 <code>1</code> 改到 <code>0</code> 即可。太简单了。</p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="http://music.163.com/outchain/player?type=2&id=28960915&auto=0&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=5137631&auto=0&height=66"></iframe>
 
-<p>后记：所有这些好玩的东西都可以从 <a href="https://hexo.io/" target="_blank" rel="external">hexo</a> 和 <a href="http://theme-next.iissnan.com/" target="_blank" rel="external">next</a> 的文档中找到，越看越玩越觉得自己菜，太感谢大神的开源和分享了。</p>
+<p>所有这些好玩的东西都可以从 <a href="https://hexo.io/" target="_blank" rel="external">hexo</a> 和 <a href="http://theme-next.iissnan.com/" target="_blank" rel="external">next</a> 的文档中找到，越看越玩越觉得自己菜，太感谢大神的开源和分享了。</p>
 
       
     </div>
@@ -454,7 +449,7 @@ path: baidusitemap.xml
     <div class="post-spread">
       
         <div class="ds-share flat" data-thread-key="2016/06/01/Blog-Update/"
-     data-title="网站 Update"
+     data-title="Update"
      data-content=""
      data-url="http://www.wenider.com/2016/06/01/Blog-Update/">
   <div class="ds-share-inline">
@@ -487,7 +482,7 @@ path: baidusitemap.xml
   <div class="comments" id="comments">
     
       <div class="ds-thread" data-thread-key="2016/06/01/Blog-Update/"
-           data-title="网站 Update" data-url="http://www.wenider.com/2016/06/01/Blog-Update/">
+           data-title="Update" data-url="http://www.wenider.com/2016/06/01/Blog-Update/">
       </div>
     
   </div>

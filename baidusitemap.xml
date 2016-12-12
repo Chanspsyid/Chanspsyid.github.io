@@ -4,12 +4,88 @@
 
     
   <url>
-    <loc>http://www.wenider.com/2016/12/04/nuo-wei-de-sen-lin-2016reading/</loc>
-    <lastmod>2016-12-05T06:17:04.000Z</lastmod>
+    <loc>http://www.wenider.com/2016/06/01/Blog-Update/</loc>
+    <lastmod>2016-12-12T03:36:13.000Z</lastmod>
     <data>
         <display>
-        <title>《挪威的森林》读后感</title>
-        <pubTime>2016-12-03T16:00:00.000Z</pubTime>
+        <title>Update</title>
+        <pubTime>2016-06-01T14:26:56.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+        <tag>Next</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.wenider.com/2016/06/03/Bilibili-Interface-Design-Usability-Heuristics-Colors/</loc>
+    <lastmod>2016-12-12T03:29:10.000Z</lastmod>
+    <data>
+        <display>
+        <title>B 站首页用户体验评估：色彩</title>
+        <pubTime>2016-06-03T11:26:56.000Z</pubTime>
+        
+        <tag>Usability Heuristics</tag>
+         
+        <tag>Project Analysis</tag>
+         
+        <tag>Interface Design</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.wenider.com/2016/11/30/Design-Practise-music163/</loc>
+    <lastmod>2016-12-12T03:24:25.000Z</lastmod>
+    <data>
+        <display>
+        <title>设计实践 ：网易云音乐-某活动的交互设计练习与思考</title>
+        <pubTime>2016-11-29T16:00:00.000Z</pubTime>
+        
+        <tag>Redesign</tag>
+         
+        <tag>Practice</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.wenider.com/2016/12/01/Getting-Ogranized-in-the-Google-Era-2016reading/</loc>
+    <lastmod>2016-12-12T03:24:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>《Google 工作整理术》读书笔记</title>
+        <pubTime>2016-11-30T16:00:00.000Z</pubTime>
+        
+        <tag>Reading</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.wenider.com/2016/05/31/bai-nian-gu-du-2016reading/</loc>
+    <lastmod>2016-12-12T02:33:14.000Z</lastmod>
+    <data>
+        <display>
+        <title>《百年孤独》到底讲了怎样的孤独？</title>
+        <pubTime>2016-05-30T16:00:00.000Z</pubTime>
         
         <tag>Reading</tag>
          
@@ -23,12 +99,12 @@
 
     
   <url>
-    <loc>http://www.wenider.com/2016/05/31/bai-nian-gu-du-2016reading/</loc>
-    <lastmod>2016-12-05T02:42:07.000Z</lastmod>
+    <loc>http://www.wenider.com/2016/12/04/nuo-wei-de-sen-lin-2016reading/</loc>
+    <lastmod>2016-12-05T06:17:04.000Z</lastmod>
     <data>
         <display>
-        <title>《百年孤独》到底讲了怎样的孤独？</title>
-        <pubTime>2016-05-30T16:00:00.000Z</pubTime>
+        <title>《挪威的森林》读后感</title>
+        <pubTime>2016-12-03T16:00:00.000Z</pubTime>
         
         <tag>Reading</tag>
          
@@ -61,23 +137,6 @@
 
     
   <url>
-    <loc>http://www.wenider.com/2016/12/01/Getting-Ogranized-in-the-Google-Era-2016reading/</loc>
-    <lastmod>2016-12-05T02:41:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>《Google 工作整理术》读书笔记</title>
-        <pubTime>2016-11-30T16:00:00.000Z</pubTime>
-        
-        <tag>Reading</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://www.wenider.com/2016/12/03/zi-dong-shou-mai-ji-Redesign-01/</loc>
     <lastmod>2016-12-04T08:33:45.000Z</lastmod>
     <data>
@@ -88,65 +147,6 @@
         <tag>Redesign</tag>
          
         <tag>Product</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.wenider.com/2016/06/01/Blog-Update/</loc>
-    <lastmod>2016-12-02T09:04:59.000Z</lastmod>
-    <data>
-        <display>
-        <title>网站 Update</title>
-        <pubTime>2016-06-01T14:26:56.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-        <tag>Next</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.wenider.com/2016/11/30/Design-Practise-music163/</loc>
-    <lastmod>2016-11-30T02:54:39.000Z</lastmod>
-    <data>
-        <display>
-        <title>设计实践 ：网易云音乐-某活动的交互设计练习与思考</title>
-        <pubTime>2016-11-29T16:00:00.000Z</pubTime>
-        
-        <tag>Redesign</tag>
-         
-        <tag>Practice</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.wenider.com/2016/06/03/Bilibili-Interface-Design-Usability-Heuristics-Colors/</loc>
-    <lastmod>2016-06-03T12:11:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>B 站首页用户体验评估：色彩</title>
-        <pubTime>2016-06-03T11:26:56.000Z</pubTime>
-        
-        <tag>Usability Heuristics</tag>
-         
-        <tag>Project Analysis</tag>
-         
-        <tag>Interface Design</tag>
          
          
            
