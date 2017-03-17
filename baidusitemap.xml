@@ -4,12 +4,12 @@
 
     
   <url>
-    <loc>http://www.wenider.com/2017/01/10/Design-Practise-music163/</loc>
-    <lastmod>2017-03-17T19:32:40.000Z</lastmod>
+    <loc>http://www.wenider.com/2017/02/10/Design-Practise-music163/</loc>
+    <lastmod>2017-03-17T19:42:33.000Z</lastmod>
     <data>
         <display>
         <title>网易云音乐-某活动的交互设计练习与思考</title>
-        <pubTime>2017-01-09T16:00:00.000Z</pubTime>
+        <pubTime>2017-02-09T16:00:00.000Z</pubTime>
         
         <tag>Redesign</tag>
          
@@ -24,7 +24,7 @@
     
   <url>
     <loc>http://www.wenider.com/2017/01/14/zi-dong-shou-mai-ji-Redesign-01/</loc>
-    <lastmod>2017-02-28T06:11:37.000Z</lastmod>
+    <lastmod>2017-03-17T19:42:31.000Z</lastmod>
     <data>
         <display>
         <title>自动售卖机重设计调研脚本</title>
@@ -33,6 +33,25 @@
         <tag>Redesign</tag>
          
         <tag>Product</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.wenider.com/2017/03/15/jianshu-redesign01/</loc>
+    <lastmod>2017-03-17T19:42:10.000Z</lastmod>
+    <data>
+        <display>
+        <title>简书 - 关注模块重设计项目</title>
+        <pubTime>2017-03-14T16:00:00.000Z</pubTime>
+        
+        <tag>Redesign</tag>
+         
+        <tag>Practice</tag>
          
          
            
