@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.wenider.com/"/>
-  <updated>2017-03-17T19:42:10.000Z</updated>
+  <updated>2017-03-20T03:02:47.000Z</updated>
   <id>http://www.wenider.com/</id>
   
   <author>
@@ -16,20 +16,127 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>简书 - 关注模块重设计项目</title>
-    <link href="http://www.wenider.com/2017/03/15/jianshu-redesign01/"/>
-    <id>http://www.wenider.com/2017/03/15/jianshu-redesign01/</id>
-    <published>2017-03-14T16:00:00.000Z</published>
-    <updated>2017-03-17T19:42:10.000Z</updated>
+    <title>简书 - 关注模块重设计：设计目标</title>
+    <link href="http://www.wenider.com/2017/03/20/jianshu-redesign-01/"/>
+    <id>http://www.wenider.com/2017/03/20/jianshu-redesign-01/</id>
+    <published>2017-03-19T16:00:00.000Z</published>
+    <updated>2017-03-20T03:02:47.000Z</updated>
     
-    <content type="html">&lt;p&gt;在当前 App 的基础上，对简书的关注模块进行重设计。大图。&lt;/p&gt;
+    <content type="html">&lt;p&gt;问题：如何确定关注模块的设计目标？&lt;/p&gt;
+&lt;p&gt;回答角度：从功能定位、用户需求这两个角度来探索设计目标。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h1 id=&quot;简书的产品定位&quot;&gt;&lt;a href=&quot;#简书的产品定位&quot; class=&quot;headerlink&quot; title=&quot;简书的产品定位&quot;&gt;&lt;/a&gt;简书的产品定位&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;聚集创作者并鼓励创作和分享，构建最大的原创内容社区&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;简书的产品特点&quot;&gt;&lt;a href=&quot;#简书的产品特点&quot; class=&quot;headerlink&quot; title=&quot;简书的产品特点&quot;&gt;&lt;/a&gt;简书的产品特点&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;创作目标明确，工具性比较强&lt;/li&gt;
+&lt;li&gt;独立的全类别内容产品，质量层次不齐，尾部内容丰富，缺少头部内容&lt;/li&gt;
+&lt;li&gt;基于兴趣的开放性关系链，有分享和社交的性质&lt;/li&gt;
+&lt;li&gt;内容的传播和持续曝光能力较差&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;简书的产品价值&quot;&gt;&lt;a href=&quot;#简书的产品价值&quot; class=&quot;headerlink&quot; title=&quot;简书的产品价值&quot;&gt;&lt;/a&gt;简书的产品价值&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;创作者群体、流量和数据&lt;/li&gt;
+&lt;li&gt;读者群体、流量和数据&lt;/li&gt;
+&lt;li&gt;内容&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;产品策略（长期／短期）：为利益（当下收益）还是为未来（吸引投资）&quot;&gt;&lt;a href=&quot;#产品策略（长期／短期）：为利益（当下收益）还是为未来（吸引投资）&quot; class=&quot;headerlink&quot; title=&quot;产品策略（长期／短期）：为利益（当下收益）还是为未来（吸引投资）&quot;&gt;&lt;/a&gt;产品策略（长期／短期）：为利益（当下收益）还是为未来（吸引投资）&lt;/h1&gt;&lt;p&gt;创作者策略&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;持续吸引更多的创作者进入简书，扩大创作群体：讲好创作故事。&lt;/li&gt;
+&lt;li&gt;吸引并留住最重要的创作者。&lt;/li&gt;
+&lt;li&gt;通过产品设计、内容运营、社交互动等提高内容的曝光能力，用来激励创作。&lt;/li&gt;
+&lt;li&gt;通过创作支持、变现支持、运营和社交激励等方式来鼓励创作和分享，帮助创作者沉淀内容、自我成长。&lt;/li&gt;
+&lt;li&gt;保证创作体验，提高产品的易用性。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;读者策略&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;持续吸引更多的读者进入简书：高质量创作者、感兴趣的内容、创作和成长故事。&lt;/li&gt;
+&lt;li&gt;帮助读者发现更多感兴趣的创作者和内容&lt;/li&gt;
+&lt;li&gt;设计体验良好的关系链内容和过滤器，提升读者的内容体验&lt;/li&gt;
+&lt;li&gt;鼓励阅读和分享&lt;/li&gt;
+&lt;li&gt;鼓励加入创作&lt;/li&gt;
+&lt;li&gt;鼓励形成读者社群，通过社交、共同兴趣来增强产品黏性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;内容策略&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;以兴趣为导向&lt;/li&gt;
+&lt;li&gt;以标签和专题为内容沉淀的载体&lt;/li&gt;
+&lt;li&gt;鼓励头部内容的产出和沉淀&lt;/li&gt;
+&lt;li&gt;曝光、传播和分享，增强内容的流动效率和体验&lt;/li&gt;
+&lt;li&gt;加入社交因素，活跃气氛、增加创作灵感和素材&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;关系链策略&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;增强创作者与读者之间的联结和黏性&lt;/li&gt;
+&lt;li&gt;鼓励付费和社交，增强创作者和读者之间的双向激励&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;变现策略&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;创作者和读者的关系链服务&lt;/li&gt;
+&lt;li&gt;品牌内容合作&lt;/li&gt;
+&lt;li&gt;以用户研究和数据、内容数据提供相关决策咨询&lt;/li&gt;
+&lt;li&gt;创作者成长服务&lt;/li&gt;
+&lt;li&gt;创作者变现服务&lt;/li&gt;
+&lt;li&gt;自建 IP 和 IP 开发&lt;/li&gt;
+&lt;li&gt;周边电商&lt;/li&gt;
+&lt;li&gt;付费阅读&lt;/li&gt;
+&lt;li&gt;垂直读者成长服务&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;关注模块的功能定位和目标是什么？&quot;&gt;&lt;a href=&quot;#关注模块的功能定位和目标是什么？&quot; class=&quot;headerlink&quot; title=&quot;关注模块的功能定位和目标是什么？&quot;&gt;&lt;/a&gt;关注模块的功能定位和目标是什么？&lt;/h1&gt;&lt;p&gt;关注模块：关系链内容 + 关系链&lt;/p&gt;
+&lt;p&gt;推送关系链内容：区别于长尾随机内容，这里向读者推送已经被其筛选出来的内容源，帮助读者获取感兴趣的内容。&lt;/p&gt;
+&lt;p&gt;强化关系链联结：文章不错，我关注了对的人；没错，就这样给我更多的反馈吧，我会更加努力创作的。&lt;/p&gt;
+&lt;h1 id=&quot;关注模块的用户需求是什么？&quot;&gt;&lt;a href=&quot;#关注模块的用户需求是什么？&quot; class=&quot;headerlink&quot; title=&quot;关注模块的用户需求是什么？&quot;&gt;&lt;/a&gt;关注模块的用户需求是什么？&lt;/h1&gt;&lt;p&gt;目标用户&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;对简书的写作方式和氛围有好感，希望获取创作反馈、偶尔浏览一下相关领域内容的普通创作者&lt;/li&gt;
+&lt;li&gt;有明确的喜好、关注了一部分优质写手、不定期打开简书看一下已关注内容的读者&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;使用场景&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;地铁／车里&lt;/li&gt;
+&lt;li&gt;吃饭时&lt;/li&gt;
+&lt;li&gt;工作空闲时&lt;/li&gt;
+&lt;li&gt;睡前／早起&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;用户目标&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;浏览最近大家都在看什么内容，看看趋势，找找谈资和灵感&lt;/li&gt;
+&lt;li&gt;关注的作者和专题里有什么值得看的内容&lt;/li&gt;
+&lt;li&gt;找找跟自己相关的东西，有没有什么可以启发自己的内容和作者&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;关注模块的设计目标是什么？&quot;&gt;&lt;a href=&quot;#关注模块的设计目标是什么？&quot; class=&quot;headerlink&quot; title=&quot;关注模块的设计目标是什么？&quot;&gt;&lt;/a&gt;关注模块的设计目标是什么？&lt;/h1&gt;&lt;p&gt;内容需求：圈子趋势、有看点的推送、跟自己有关的作者和内容&lt;/p&gt;
+&lt;p&gt;设计目标：快速、直接、积极、有意义&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;问题：如何确定关注模块的设计目标？&lt;/p&gt;
+&lt;p&gt;回答角度：从功能定位、用户需求这两个角度来探索设计目标。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Redesign" scheme="http://www.wenider.com/tags/Redesign/"/>
+    
+      <category term="Practice" scheme="http://www.wenider.com/tags/Practice/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简书 - 关注模块重设计项目</title>
+    <link href="http://www.wenider.com/2017/03/15/jianshu-redesign-pre/"/>
+    <id>http://www.wenider.com/2017/03/15/jianshu-redesign-pre/</id>
+    <published>2017-03-14T16:00:00.000Z</published>
+    <updated>2017-03-20T03:02:22.000Z</updated>
+    
+    <content type="html">&lt;p&gt;在当前 App 的基础上，对简书的关注模块进行重设计。&lt;/p&gt;
+&lt;p&gt;大图预警。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;&lt;img src=&quot;https://ooo.0o0.ooo/2017/03/18/58cc3749e127e.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;在当前 App 的基础上，对简书的关注模块进行重设计。大图。&lt;/p&gt;
+      &lt;p&gt;在当前 App 的基础上，对简书的关注模块进行重设计。&lt;/p&gt;
+&lt;p&gt;大图预警。&lt;/p&gt;
     
     </summary>
     
